@@ -1,0 +1,186 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header-text-title{
+    padding-top: 80px;
+    color: #272727;
+    font-size: 60px;
+
+    font-weight: 800;
+
+}
+
+.header-img{
+    width: 500px;
+    padding-top: 100px;
+    
+
+}
+.header-container{
+  display: flex;
+  text-align: left;
+  align-content: center;
+  justify-content: space-around;
+
+flex-shrink: 0;
+background: rgba(229, 84, 115, 0.10);
+}
+.header-text-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.btn-primary{
+    color: aliceblue;
+display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+border: none;
+margin-bottom: 145px;
+
+}
+
+/* hot deal section styles  */
+.hot-deal-container{
+display: flex;
+height: 300px;
+border-radius: 8px;
+background-color:rgba(229, 84, 115, 0.10);
+padding: 50px;
+justify-content: space-around;
+align-items: center;
+padding: 100px 300px;
+margin-top: 100px;
+
+}
+.hot-deal-text-title{
+    color: #272727;
+font-size: 40px;
+padding-top:150px ;
+}
+
+.hot-deal-text{
+    text-align: center;
+ 
+    
+}
+.hot-deal-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+line-height : 30px;
+}
+
+
+/* instagram section style  */
+
+.insta-text-title{
+    color: #272727;
+text-align: center;
+font-size: 35px;
+padding-top: 150px;
+
+
+}
+
+.insta-text-description{
+
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+padding-bottom: 35px;
+}
+.insta-img{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+ /* latest-deal-section styles   */
+
+ .best-deal-container{
+    background-image: url('../FlowerAsset/Rectangle\ 9.png');
+
+ }
+ .best-deal-text-title{
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+ }
+ .best-deal-text-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+ }
+
+ .form-email-box{
+    width: 700px;
+    padding: 20px 43px;
+    border-radius: 8px;
+ }
+ .best-deal-container{
+   padding: 100px 100px;
+   margin: 100px 230px;
+ }
+.best-deal-form{
+    display:flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 30px;
+}
+.btn-form{
+    color: aliceblue;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+.form-email-box{
+    border: none;
+}
+
+/* foooter section work  */
+.footer-container{
+  
+    background-color: #111010;
+    /* display:flex;
+    align-items: center;
+    justify-content: center;    */
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 35px;
+    padding-top: 110px;
+}
+#footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+font-size: 14px;
+/* font-weight: 400; */
+line-height: 30px;
+
+}
+.footer-last-line{
+    padding-bottom: 100px;
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}
+
+#shop-name{
+    color: white;
+}
