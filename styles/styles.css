@@ -109,6 +109,10 @@ padding-bottom: 35px;
     background-image: url('../FlowerAsset/Rectangle\ 9.png');
 
  }
+.hot-deal-container span{
+    color: #E55473;
+}
+
  .best-deal-text-title{
   color: #272727;
 text-align: center;
@@ -183,4 +187,74 @@ font-weight: 400;
 
 #shop-name{
     color: white;
+}
+
+/* service section styles  */
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:none;
+    text-align: center;
+    padding: 150px 200px;
+    margin: 150px 230px;
+    border-radius: 8px;
+background-color: rgba(39, 39, 39, 0.05);
+}
+.service-container p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+}
+
+
+/* featured section styles  */
+
+.featured-description-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+padding-top: 100px;
+
+}
+.featured-description-descriptions{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+padding-bottom: 30px;
+}
+.featured-img-container{
+
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    gap:50px;
+}
+.featured-img-box1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+padding:90px 60px 0px 60px;
+
+
+
+}
+.featured-img-box2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding:70px 40px 80px 50px;
+
+
+}
+.featured-img-box3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding:50px 60px 0px 60px;
+
+}
+.featured-img-name{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 }
