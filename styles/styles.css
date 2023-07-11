@@ -53,7 +53,7 @@ display: flex;
 height: 300px;
 border-radius: 8px;
 background-color:rgba(229, 84, 115, 0.10);
-padding: 50px;
+
 justify-content: space-around;
 align-items: center;
 padding: 100px 300px;
@@ -68,7 +68,8 @@ padding-top:150px ;
 
 .hot-deal-text{
     text-align: center;
- 
+    overflow-wrap: break-word;
+
     
 }
 .hot-deal-description{
@@ -107,6 +108,8 @@ padding-bottom: 35px;
 
  .best-deal-container{
     background-image: url('../FlowerAsset/Rectangle\ 9.png');
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
 
  }
 .hot-deal-container span{
@@ -258,3 +261,51 @@ font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 }
+
+
+/* branch section styles */
+
+.branch-column-titel {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.branch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px 130px 30px 230px;
+}
+
+
+.branch-item-title {
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.branch-item-institute {
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.branch-item-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.branch-container hr {
+    margin: 30px;
+
+}
+
+
